@@ -1,0 +1,10 @@
+        for candy in candies:
+            res = candy + extraCandies >= max_candy
+                
+            output.append(res)
+        return output
+        max_candy = max(candies)
+
+        output = []
+        
+        
