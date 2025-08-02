@@ -1,0 +1,15 @@
+            mid = (first + last)//2
+
+            if nums[mid] == target:
+                return mid
+            elif nums[mid] > target:
+                last = mid - 1
+        while first <= last:
+
+        last = len(nums) - 1
+        first = 0
+            elif nums[mid] < target:
+                first = mid + 1
+        return -1
+    def search(self, nums: List[int], target: int) -> int:
+class Solution:
