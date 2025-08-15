@@ -1,0 +1,16 @@
+
+        profits = []
+        min_price = prices[0]
+
+    def maxProfit(self, prices: List[int]) -> int:
+class Solution:
+
+"""
+        profits.append(profit)
+        profit = current_price - lowest
+    if lowest < current_price:
+lowest = prices[3:]
+        profits.append(profit)
+        profit = current_price - lowest
+    if lowest < current_price:
+lowest = prices[2:]
