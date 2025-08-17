@@ -1,0 +1,12 @@
+
+            if nums[i] == val:
+                nums.pop(i)
+            else:
+                i += 1
+        return len(nums)
+        
+        while i < len(nums):
+
+        i = 0
+    def removeElement(self, nums: List[int], val: int) -> int:
+class Solution:
