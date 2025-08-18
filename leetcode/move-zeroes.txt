@@ -1,0 +1,12 @@
+·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌pos·‌+=·‌1
+·‌·‌·‌·‌·‌·‌·‌·‌for·‌num·‌in·‌nums:·‌·‌
+·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌if·‌num·‌!=·‌0:
+·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌·‌nums[pos]·‌=·‌num
+
+·‌·‌·‌·‌·‌·‌·‌·‌length·‌=·‌len(nums)
+·‌·‌·‌·‌·‌·‌·‌·‌pos·‌=·‌0
+·‌·‌·‌·‌·‌·‌·‌·‌"""
+·‌·‌·‌·‌·‌·‌·‌·‌Do·‌not·‌return·‌anything,·‌modify·‌nums·‌in-place·‌instead.
+·‌·‌·‌·‌·‌·‌·‌·‌"""
+·‌·‌·‌·‌def·‌moveZeroes(self,·‌nums:·‌List[int])·‌->·‌None:
+class·‌Solution:
