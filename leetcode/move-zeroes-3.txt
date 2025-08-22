@@ -1,0 +1,9 @@
+
+        for num in nums:  
+            if num != 0:
+                nums[pos] = num
+                pos += 1
+
+        for i in range(pos, length):
+            nums[i] = 0
+        
