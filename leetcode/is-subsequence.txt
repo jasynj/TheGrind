@@ -1,0 +1,16 @@
+                i += 1
+            j += 1
+
+            if s[i] == t[j]:
+        while i < len(s) and j < len(t):
+            
+        i = j = 0
+
+
+#   j  a g b d c
+
+#   i  a b c
+        if i == len(s):
+            return True
+        return False
+    
