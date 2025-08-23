@@ -1,0 +1,9 @@
+        
+        if len(word2) > len(word1):
+            for letter in word2[n:]:
+                merged.append(letter)
+        elif len(word1) > len(word2):
+            for letter in word1[m:]:
+                merged.append(letter)
+
+        return "".join(merged)
