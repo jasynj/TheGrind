@@ -1,0 +1,15 @@
+        #     merged.append(word1[m])
+        #     merged.append(word2[n])
+        #     m += 1
+        #     n += 1
+
+        for i in range(k):
+            merged.append(word1[i])
+            merged.append(word2[i])
+        
+        if len(word1) > k:
+            merged.append(word1[k:])
+        if len(word2) > k: 
+            merged.append(word2[k:])
+    
+        return "".join(merged)
