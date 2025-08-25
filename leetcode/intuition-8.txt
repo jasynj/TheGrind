@@ -1,0 +1,13 @@
+            area =  min(left, right) * (r - l)
+
+            currentMax = max(area, currentMax)
+            
+
+            left, right = height[l], height[r]
+        while l < r:
+
+        currentMax = 0
+        l, r  = 0, len(height) - 1
+        
+            if left > right:
+                r -= 1
