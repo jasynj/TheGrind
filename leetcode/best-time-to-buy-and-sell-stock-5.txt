@@ -1,0 +1,13 @@
+                profit = price - lowest
+                profits.append(profit)
+            else:
+            if price > lowest:
+        for price in prices[1:]:
+
+        profits = []
+                lowest = price
+
+
+        if not profits:
+            return 0
+        return max(profits)
