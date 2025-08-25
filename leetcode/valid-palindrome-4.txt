@@ -1,0 +1,14 @@
+
+                r -= 1
+            while l < r and not s[r].isalnum():
+
+                l += 1
+            while l < r and not s[l].isalnum():
+        while l < r:
+
+        l, r = 0, len(s) - 1
+            if l >= r:
+                return True
+
+            if s[l].lower() != s[r].lower():
+                return False
