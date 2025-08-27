@@ -1,0 +1,16 @@
+        
+        while l < r:
+            if total == target:
+                return [l + 1, r + 1]
+            
+            total = left + right
+            elif total > target:
+                r -= 1
+            elif total < target:
+                l += 1
+        
+        l , r = 0, len(numbers) - 1
+    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+
+        
+            left, right = numbers[l], numbers[r]
