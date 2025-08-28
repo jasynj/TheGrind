@@ -1,0 +1,18 @@
+                r -= 1
+            else:
+            if left > right:
+
+            area = (r - l ) * min(left, right)
+            left, right = height[l], height[r]
+        while l < r:
+
+        maxWater = 0
+        l, r = 0, len(height) - 1
+    def maxArea(self, height: List[int]) -> int:
+class Solution:
+                l += 1
+
+            maxWater = max(maxWater, area)
+
+        return maxWater
+        
