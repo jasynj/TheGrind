@@ -1,0 +1,25 @@
+            while l < r :
+                
+                if nums[l] + nums[r] == offset:
+                    res.append([nums[l], nums[r], nums[num]])
+                    l += 1
+                    r -= 1
+
+                    while l < r and nums[l] == nums[l - 1]:
+                        l += 1
+
+                    while l < r and nums[r] == nums[r + 1]:
+                        r -= 1
+
+            l, r = num + 1, n - 1
+            offset = -(nums[num])
+            
+                continue
+            if num > 0 and nums[num] == nums[num - 1]:
+
+                break
+            if nums[num] > 0:
+        for num in range(n):
+
+        res = []
+        n = len(nums)
