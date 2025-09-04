@@ -1,0 +1,16 @@
+        while l <= r:
+            left, right = nums[l], nums[r]
+            sleft, sright = left * left, right * right
+
+            if sleft > sright:
+                s[k] = sleft
+                l += 1
+            else:
+                s[k] = sright
+                r -= 1
+            k -= 1
+
+        return s
+
+
+
