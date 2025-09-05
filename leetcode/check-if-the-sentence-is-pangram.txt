@@ -1,0 +1,8 @@
+class Solution:
+    def checkIfPangram(self, sentence: str) -> bool:
+        dic = set(sentence)
+        
+        if len(dic) != 26:
+            return False
+        return True
+        
