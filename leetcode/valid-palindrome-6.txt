@@ -1,0 +1,13 @@
+                return False
+
+            l += 1
+            r -= 1
+
+        return True
+
+            if s[l].lower() != s[r].lower():
+
+                r -= 1
+            while l < r and not s[r].isalnum():
+
+                l += 1
