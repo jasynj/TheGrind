@@ -1,0 +1,14 @@
+
+        # while l < r:
+        #     left, right = height[l], height[r]
+        #     area = (r - l ) * min(left, right)
+
+        #     if left > right:
+        #         r -= 1
+        #     else:
+        #         l += 1
+
+        #     maxWater = max(maxWater, area)
+
+        # return maxWater
+        
