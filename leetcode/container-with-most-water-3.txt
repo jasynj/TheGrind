@@ -1,0 +1,15 @@
+
+                l += 1
+            elif height[r] >= height[l]:
+                r -= 1
+            if height[l] > height[r]:
+
+            area = length * width #8
+            length = min(height[r], height[l]) #1
+            width = r - l #2
+        while l < r:
+
+        maxWater = 0
+        l, r = 0, len(height) - 1
+    def maxArea(self, height: List[int]) -> int:
+class Solution:
