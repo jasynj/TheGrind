@@ -1,0 +1,16 @@
+        
+    
+        """
+        for j in t:
+            if i < len(s) and j == s[i]:
+        return len(s) == 0    
+                return True
+            if i == len(s):
+
+                i += 1
+            if i < len(s) and j == s[i]:
+            
+        for j in t:
+
+        i = 0 #pointer for s
+         i = 0
