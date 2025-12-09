@@ -1,0 +1,13 @@
+            # minimum potion value needed 
+        for s in spells:
+
+        ans = []
+        m = len(potions)
+        potions.sort()
+List[int]:
+[int], potions: List[int], success: int) -> 
+    def successfulPairs(self, spells: List
+class Solution:
+
+from typing import List
+from bisect import bisect_left
