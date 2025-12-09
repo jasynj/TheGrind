@@ -1,0 +1,13 @@
+            # If mid element is less than 
+
+the next one,
+            # the peak must be on the right 
+side.
+            if nums[mid] < nums[mid + 1]:
+            mid = (left + right) // 2
+        while left < right:
+
+        left, right = 0, len(nums) - 1
+[int]) -> int:
+    def findPeakElement(self, nums: List
+class Solution:
