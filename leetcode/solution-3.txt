@@ -1,0 +1,13 @@
+            hours = 0
+            for p in piles:
+                hours += (p + mid - 1) // 
+at speed mid
+            # compute total hours if eating 
+
+            mid = (left + right) // 2
+        while left < right:
+
+        left, right = 1, max(piles)
+[int], h: int) -> int:
+    def minEatingSpeed(self, piles: List
+class Solution:
