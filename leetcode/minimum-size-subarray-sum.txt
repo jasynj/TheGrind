@@ -1,0 +1,19 @@
+        for right in range(len(nums)):
+            total += nums[right]
+            while total >= target:
+
+                total -= nums[left]
+                left += 1
+
+                res = min(right - left + 1, res)
+
+        res = float('inf')
+        total = 0
+        left = 0
+    def minSubArrayLen(self, target: int, nums: list[int]) -> int:
+class Solution:
+
+        return res
+        if sum(nums) < target:
+
+            return 0
