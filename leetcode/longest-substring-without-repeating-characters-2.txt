@@ -1,0 +1,15 @@
+
+        for p2 in range(len(s)):
+            seen.add(s[p2])
+
+            while s[p2] in seen:
+                seen.remove(s[p1])
+                p1 += 1
+
+            best = max(best, p2 - p1 + 1)
+        best = 0
+        p1 = 0
+        seen = set()
+        
+    def lengthOfLongestSubstring(self, s: str) -> int:
+class Solution:
