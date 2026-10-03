@@ -1,0 +1,14 @@
+        # return []
+
+        store = {}
+        for index, num in enumerate(nums):
+
+            diff = target - num
+
+            if diff in store:
+                return [index, store[diff]]
+            else:
+                store[num] = index
+
+            
+            
