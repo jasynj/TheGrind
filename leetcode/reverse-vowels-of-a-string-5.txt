@@ -1,0 +1,24 @@
+        while l <= r:
+
+            while s[l] not in vowels and l < r:
+                l += 1
+
+        #   0 1 2 3 4 5 6 7  
+        #  "l e o t c e d e"
+        #         l r
+          
+            while s[r] not in vowels and l < r:
+                r -= 1
+
+        s = list(s)
+        r = len(s) - 1   
+
+            s[l], s[r] = s[r], s[l]
+            l += 1
+            r -= 1
+
+        l = 0
+
+        vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+       
+        """
